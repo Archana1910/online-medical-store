@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta charset="ISO-8859-1" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous" />
+<title>Delete medicine</title>
+<link rel="stylesheet" type="text/css" href="Deletemedicine.css">
+<link rel="stylesheet" type="text/css" href="Adminlogin.css">
+<link href="loginpage.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="Adminhome.css">
+<script src="https://account.snatchbot.me/script.js"></script>
+<script>window.sntchChat.Init(73853)</script>
+</head>
+<br>
+<br>
+<br>
+
+
+<div id="sidemenu">
+	<ul>
+		<li><a href="Addmedicine.html" target="_blank"> Add Medicines
+		</a></li>
+		<li><a href="Deletemedicine.html" target="_blank"> Delete
+				Medicines </a></li>
+		<li><a href="Pending.jsp" target="_blank"> Customer pending
+				requests </a></li>
+		<li><a href="Medicinedata.jsp" target="_blank"> Added stock </a></li>
+		<li><a href="#" target="_blank"> About </a></li>
+	</ul>
+</div>
+<br>
+<br>
+<br>
+<h2 ALIGN="CENTER">
+	<b>DELETE MEDICINES</b>
+</h2>
+
+<div class="register">
+	<form id="register" method="get" action="Deletemedicine.jsp">
+		<table border="0" align="center">
+			<tbody>
+				<tr>
+					<td><label for="medicine_id">Medicine ID: </label></td>
+					<td><input id="medicine_id" class="form-control"
+						maxlength="50" name="medicine_id" type="text" required="0-9" /></td>
+				</tr>
+				<td align="center"><input
+					class="text-center rounded font-weight-bold" name="Submit"
+					type="Submit" id="submit" value="Submit" /></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+	<br> <br> <br>
+	<form method="post" action="logout.jsp" align="center">
+		<button class="button">
+			<span>Pharmacist logout </span>
+		</button>
+	</form>
+
+</div>
+</html>

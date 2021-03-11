@@ -1,0 +1,83 @@
+body 
+{ 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Arial'; 
+    background-image: url("3.jpg");
+    background-attachment: fixed;
+    background-position: left top;
+    text-shadow: 4px 4px 4px #aaa;
+
+    
+  
+} 
+h1{
+    text-align: center; 
+    color: #33cccc; 
+    padding: 20px;
+    font-family:  verdana;
+     font-size: 200%;
+} 
+.register{ 
+        width: 630px; 
+        overflow: hidden; 
+        margin: auto; 
+        margin: 20 0 0 300px; 
+        padding: 80px; 
+        background: #c0c0c0;
+        opacity: 0.8;
+        border-radius: 15px ; 
+         
+} 
+
+label{ 
+    color: #fff; 
+    font-size: 20px; 
+    padding: 5px;
+    margin: 5px;
+} 
+ #username {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#password {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}#pswd1 {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#newpass {
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#submit {
+    width: 200px;
+    height: 45px;
+    margin: 18px;
+    border: none;
+    padding-left: 7px;
+    background-color: #33cccc;
+    color: #ffffff;
+  }
+  #reset {
+    width: 200px;
+    height: 45px;
+    margin: 18px;
+    border: none;
+    padding-left: 7px;
+    background-color: #33cccc;
+    color: #fff;
+  }

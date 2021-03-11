@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="ISO-8859-1">
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" href="Adminlogin.css">
+<title>Customer Login Form</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: blue;
+}
+</style>
+</head>
+
+<body>
+ <ul>
+  <li><a  href="homepage.jsp">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a  href="registration.jsp">Register</a></li>
+  <li><a class ="active"href="loginpage.jsp">Login</a></li>
+</ul>
+     
+               
+	<h2><font color="white">
+			<b>CUSTOMER LOGIN</b>
+		</font></h2>
+	<br>
+	<div class="login">
+		<form id="login" method="post" action="customerlogin.jsp">
+			<label><b>User Name</b></label> <input type="text" name="username"
+				id="username" placeholder="Username" required> <br>
+			<br> <label><b>Password</b></label> <input type="password"
+				name="password" id="password" placeholder="Password" required>
+			<br>
+			<br> <input type="submit" class="font-weight-bold" name="submit"
+				id="submit" value="Log In"> <br>
+			<br> <input type="checkbox" id="check"> <span>Remember
+				me</span> <br>
+			<br> <a href="Forgotpassword.html">Forgot Password</a> <br>
+			<br>
+		</form>
+	</div>
+	<script src="https://account.snatchbot.me/script.js"></script>
+	<script>window.sntchChat.Init(73853)</script>
+</body>
+</html>
